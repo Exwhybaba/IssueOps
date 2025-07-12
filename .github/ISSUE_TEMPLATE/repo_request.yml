@@ -1,6 +1,20 @@
 name: '🗒️ Repository Request'
 description: 'Request a new repository.'
 title: '🗒️ Repository Request: '
+
 labels:
   - 'repo-request'
   - 'issue-ops'
+
+assignees:
+  - Exwhybaba
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 'Name'
+      description: 'Name of the repository in lower-case and kebab casing.'
+      placeholder: 'your-name-kebab'
+    validations:
+      required: true
