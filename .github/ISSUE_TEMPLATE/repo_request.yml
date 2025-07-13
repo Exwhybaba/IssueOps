@@ -15,7 +15,7 @@ body:
     attributes:
       label: 'Name'
       description: 'Name of the repository in lower-case and kebab casing.'
-      placeholder: 'your-name-kebab'
+      placeholder: 'SeyeOyelayo-kebab'
     validations:
       required: true
 
